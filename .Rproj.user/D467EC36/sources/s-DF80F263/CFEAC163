@@ -1,8 +1,8 @@
 {
     "id": "CFEAC163",
-    "path": "~/Documents/Work/Data Analytics/Data Analytics Portfolio/Capstone Project Case Study/Capstone Project Case Study-Bellabeat-Wellness-Tech.Rmd",
+    "path": "~/Documents/Work/Data Analytics/Data Analytics Portfolio/Capstone Project Case Study/Capstone Project Case Study-Bellabeat-Wellness-Tech.r",
     "project_path": null,
-    "type": "r_markdown",
+    "type": "r_source",
     "hash": "0",
     "contents": "",
     "dirty": false,
@@ -12,16 +12,16 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "4,34",
+        "cursorPosition": "10,3",
         "scrollLine": "0",
         "working_dir": "default"
     },
     "folds": "",
-    "lastKnownWriteTime": 1630370469,
+    "lastKnownWriteTime": 1630372319,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1630370469373,
+    "last_content_update": 1630372319504,
     "read_only": false,
     "read_only_alternatives": []
 }

@@ -1,0 +1,15 @@
+"0","#Install/load lubridate package"
+"0","#install.packages(lubridate)"
+"0","library(lubridate)"
+"2","
+Attaching package: ‘lubridate’
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+"
+"0","daily_sleep_1$ActivityDate <- as.Date(daily_sleep_1$ActivityDate, format = ""%m/%d/%Y"")"
+"0","daily_activity$ActivityDate <-as.Date(daily_activity$ActivityDate, format = ""%m/%d/%Y"")"
+"0",""

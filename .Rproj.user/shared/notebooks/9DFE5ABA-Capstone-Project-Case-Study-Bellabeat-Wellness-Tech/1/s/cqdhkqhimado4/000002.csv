@@ -1,0 +1,3 @@
+"0","hourly_calories$ActivityHour <- mdy_hms(hourly_calories$ActivityHour)"
+"0","hourly_intensities$ActivityHour <-mdy_hms(hourly_intensities$ActivityHour)"
+"0","hourly_steps$ActivityHour <-mdy_hms(hourly_steps$ActivityHour)"

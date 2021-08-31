@@ -1,0 +1,3 @@
+"0","#Determine # of instances users who slept less than the recommended 7 hours (or 420 minutes)"
+"0","daily_activity_with_sleep %>%"
+"0","  count(TotalMinutesAsleep < 420)"

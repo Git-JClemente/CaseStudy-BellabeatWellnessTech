@@ -3,7 +3,7 @@
     "path": "~/Documents/Work/Data Analytics/Data Analytics Portfolio/Capstone Project Case Study/Capstone-Project-Case-Study-Bellabeat-Wellness-Tech.Rmd",
     "project_path": null,
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "1421115554",
     "contents": "",
     "dirty": false,
     "created": 1630374935288.0,
@@ -12,16 +12,17 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "13,277",
-        "scrollLine": "0",
-        "working_dir": "default"
+        "cursorPosition": "409,6",
+        "scrollLine": "406",
+        "working_dir": "default",
+        "last_setup_crc32": "9FA83962bb338d19"
     },
     "folds": "",
     "lastKnownWriteTime": 1630374288,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1630374288,
+    "last_content_update": 1630376300507,
     "read_only": false,
     "read_only_alternatives": []
 }

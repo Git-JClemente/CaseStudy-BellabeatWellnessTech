@@ -1,0 +1,3 @@
+"0","# Relationship between TotalSteps and Calories."
+"0","# We hypothesize that the relationship is directly positive and that the more steps you take, the more Calories you likely burned that same day."
+"0"," ggplot(data = daily_activity_with_sleep) + geom_point(mapping = aes(x = TotalSteps, y = Calories ))  "

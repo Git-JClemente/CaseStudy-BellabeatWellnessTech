@@ -1,0 +1,8 @@
+"0","# Generate Tibble of the mean Calories by Day of the week and time of day"
+"0","Tibble_Day_Time_Cal <- hourly_activity %>% "
+"0","  group_by(DayOfWeek, TimeOfDay) %>%"
+"0"," summarise(across(starts_with('Calories'), mean))"
+"2","`summarise()` has grouped output by 'DayOfWeek'. You can override using the `.groups` argument.
+"
+"0","             "
+"0","print(Tibble_Day_Time_Cal)"

@@ -1,0 +1,8 @@
+"0",""
+"0","hourly_activity$TimeOfDay <- case_when("
+"0","    between(hour(hourly_activity$ActivityHour), 0, 3) ~ ""Late Night"","
+"0","    between(hour(hourly_activity$ActivityHour), 4, 7) ~ ""Early Morning"","
+"0","    between(hour(hourly_activity$ActivityHour), 8, 11) ~ ""Morning"","
+"0","    between(hour(hourly_activity$ActivityHour), 12, 15) ~ ""Afternoon"", "
+"0","    between(hour(hourly_activity$ActivityHour), 16, 19) ~ ""Evening"",  "
+"0","    between(hour(hourly_activity$ActivityHour), 20, 23) ~ ""Night"" )"

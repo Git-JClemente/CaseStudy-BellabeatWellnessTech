@@ -1,0 +1,4 @@
+"0",""
+"0","#Determine # of instances users who slept more than the recommended 9 hours (or 540 minutes)"
+"0","daily_activity_with_sleep %>%"
+"0","  count(TotalMinutesAsleep > 540)"

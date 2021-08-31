@@ -1,0 +1,2 @@
+"0","hourly_activity$DayOfWeek <- weekdays(as.Date(hourly_activity$ActivityHour))"
+"0",""

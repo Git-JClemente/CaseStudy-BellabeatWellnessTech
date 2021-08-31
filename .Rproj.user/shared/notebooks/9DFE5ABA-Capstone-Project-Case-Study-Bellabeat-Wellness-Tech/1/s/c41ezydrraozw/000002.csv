@@ -1,0 +1,8 @@
+"0","Scatter_Sleep_Steps_Calories <- ggplot(data = daily_activity_with_sleep) +"
+"0","  labs(title = ""Sleep vs Daily Activity (Total Steps & Calories)"", x = ""Total Time Asleep (min)"", y = ""Total Steps"") + "
+"0"," geom_point(mapping = aes( x = TotalMinutesAsleep, y = TotalSteps, color = Calories )) + "
+"0","  scale_color_gradientn(colors = c('red', 'orange', 'yellow', 'green', 'blue'), values = c(0, 25, 50, 75, 100/100)) + geom_smooth(formula = y ~ x, method=lm, mapping = aes(y = TotalSteps, x = TotalMinutesAsleep), color = ""red"") +"
+"0","geom_vline(xintercept=420,linetype=""dashed"",size=.5, color = ""black"") +"
+"0","geom_vline(xintercept=540,linetype=""dashed"",size=.5, color = ""black"")"
+"0",""
+"0","plot(Scatter_Sleep_Steps_Calories) "

@@ -1,0 +1,6 @@
+"0","daily_activity$ActivityClassification <- case_when("
+"0","    between(daily_activity$TotalSteps, 0, 3790) ~ ""Fairly Inactive"","
+"0","    between(daily_activity$TotalSteps, 3791, 7406) ~ ""Less Active"","
+"0","    between(daily_activity$TotalSteps, 7407, 10727) ~ ""More Active"","
+"0","    between(daily_activity$TotalSteps, 10728, 36019) ~ ""Highly Active"" )"
+"0",""

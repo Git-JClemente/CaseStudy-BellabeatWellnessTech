@@ -2,9 +2,7 @@
 title: 'Capstone Project Case Study: Bellabeat Wellness Technology'
 author: "Julian Clemente"
 date: "7/7/2021"
-output:  
-  html_document:
-    keep_md: true
+output: rmarkdown::github_document
  
 ---
 
